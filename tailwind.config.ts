@@ -9,6 +9,15 @@ const config: Config = {
   ],
   theme: {
     extend: {},
+    colors: {
+      decomsGray: {
+        400: "#b5b5b5",
+        500: "#4c494b",
+      },
+      decomsWhite: "#fbfbfb",
+      decomsPink: "#c7a4a5",
+      decomsRed: "#cb2228",
+    },
   },
   plugins: [require("preline/plugin")],
 };
